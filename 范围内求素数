@@ -1,0 +1,14 @@
+start =int(input('请输入起始值'))
+end1=int(input('请输入终值'))
+n=0
+while(start<=end1):
+    j=2
+    while(j<=start/2):
+        if (start%j==0): break;
+        j+=1
+    if j>start/2:  print(start,'是素数');n=n+1
+    start+=1
+if start>end1:
+    print("over,此范围内共有",n,"个素数")
+
+
