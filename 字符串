@@ -4,9 +4,15 @@ print(var1+"xie")
 print(var1[:5]+'xie')
 print(var1[:6]+'xie')
 
+var3 = 'Hello World!'
+var2 = "Python Runoob"
+print("var3[0]: ", var3[0])
+print("var2[1:5]: ", var2[1:5])
+
 '''结果
          hello worldxie
          helloxie
          hello xie   
-    
+var3[0]:  H
+var2[1:5]:  ytho
 '''
