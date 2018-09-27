@@ -16,3 +16,7 @@ print("var2[1:5]: ", var2[1:5])
 var3[0]:  H
 var2[1:5]:  ytho
 '''
+
+''' str.center(长度，’符号‘)的使用 '''
+var4='hello'
+print(var4.center(9,'*'))
