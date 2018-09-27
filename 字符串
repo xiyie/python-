@@ -1,0 +1,12 @@
+''' 字符串'''
+var1="hello world"
+print(var1+"xie")
+print(var1[:5]+'xie')
+print(var1[:6]+'xie')
+
+'''结果
+         hello worldxie
+         helloxie
+         hello xie   
+    
+'''
