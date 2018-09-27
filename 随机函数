@@ -8,7 +8,7 @@ import random
 random.uniform(x,y)      //随机生成一个在[x,y)内的实数
  
  
-具体随机函数如下
+具体随机函数如下(均需引用 random)
 choice(seq)	                        从序列的元素中随机挑选一个元素，比如random.choice(range(10))，从0到9中随机挑选一个整数。
 randrange ([start,] stop [,step])	从指定范围内，按指定基数递增的集合中获取一个随机数，基数缺省值为1
 random()	                        随机生成下一个实数，它在[0,1)范围内。
