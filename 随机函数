@@ -1,0 +1,9 @@
+import random
+random.choice(range(10)) //从0到9选择一个整数
+
+import random
+random.random()          //返回随机生成的一个实数，它在[0,1)范围内。
+
+import random
+random.uniform(x,y)      //随机生成一个在[x,y)内的实数
+ 
